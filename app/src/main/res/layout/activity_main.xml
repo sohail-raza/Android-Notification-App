@@ -18,6 +18,7 @@
     </EditText>
 
     <TimePicker
+        android:id="@+id/timePicker"
         android:layout_width="420dp"
         android:layout_height="400dp"
         android:layout_marginTop="20dp" />
@@ -36,5 +37,5 @@
             android:id="@+id/cancelBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel Remidner"/>
+            android:text="Cancel Reminder"/>
     </LinearLayout>
